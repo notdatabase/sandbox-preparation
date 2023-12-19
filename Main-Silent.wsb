@@ -1,7 +1,0 @@
-<Configuration>
-<VGpu>Default</VGpu>
-<Networking>Default</Networking>
-<LogonCommand>
-   <Command>powershell.exe irm https://raw.githubusercontent.com/notdatabase/sandbox-preparation/main/scripts/entry-silent.ps1 | iex</Command>
-</LogonCommand>
-</Configuration>

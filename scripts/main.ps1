@@ -15,7 +15,7 @@ $introText = @"
 
 Windows Sandbox Preparation Script
 Made with <3 by Database
-v1.0.0
+v1.0.1
 
 --------------------------------------------------------------
 
