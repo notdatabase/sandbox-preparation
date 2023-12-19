@@ -201,6 +201,7 @@ Remove-Item $env:temp\nirsoft.zip
 Remove-Item $env:temp\nppInstaller.exe
 Remove-Item $env:temp\dnSpy.zip
 Remove-Item $env:temp\x64dbg.zip
+Remove-Item $env:temp\pythonInstaller.exe
 
 
 Start-Process explorer.exe
