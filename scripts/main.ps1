@@ -1,13 +1,3 @@
-$installMusic = "https://files.catbox.moe/4cnb5v.mp3"
-
-$ProgressPreference = 'SilentlyContinue'
-Invoke-WebRequest -Uri $installMusic -OutFile $env:temp\installmusic.mp3
-
-Add-Type -AssemblyName presentationCore
-$mediaPlayer = New-Object System.Windows.Media.MediaPlayer
-$mediaPlayer.Open("$env:temp\installmusic.mp3")
-$mediaPlayer.Play()
-
 $ascii = @"
 ___       __       ________       ________     
 |\  \     |\  \    |\   ____\     |\   __  \    
@@ -192,8 +182,6 @@ Set-ItemProperty -Path $explorerOptions -Name "Hidden" -Value 1
 
 echo "Stage 11/11: Done! Cleaning up..."
 
-$mediaPlayer.Stop()
-Remove-Item $env:temp\installmusic.mp3
 Remove-Item $env:temp\BraveBrowserSetup.exe
 Remove-Item $env:temp\7zSetup.exe
 Remove-Item $env:temp\SysinternalsSuite.zip
