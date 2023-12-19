@@ -8,7 +8,7 @@ This script will fetch common debugging and utility scripts, so you can save tim
 
 ## Script Versions
 There are 2 versions of the script. All of them do the same thing:
-* [Main](https://github.com/notdatabase/sandbox-preparation/blob/main/Main.wsb) - Plays [Eiffel 65 - Blue 8-Bit Remix](https://www.youtube.com/watch?v=RB7VBfiMRKA) during installation.
+* [Main](https://github.com/notdatabase/sandbox-preparation/blob/main/Main.wsb) - Plays [Eiffel 65 - Blue 8-Bit Remix](https://www.youtube.com/watch?v=RB7VBfiMRKA) during installation. Credit to 8-Bit Universe for the remix!
 * [Silent](https://github.com/notdatabase/sandbox-preparation/blob/main/Main-Silent.wsb) - Does not play the installation music.
 
 Run the .wsb file to start the sandbox.
